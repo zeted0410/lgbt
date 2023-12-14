@@ -8,4 +8,10 @@ document.getElementById("quizForm").addEventListener("submit", function(event) {
     else {
         document.getElementById("result").innerHTML = "you are not gay";
     }
+    document.body.style.backgroundColor = "#000000";
+    window.scrollTo({
+        top: 3000,
+        left: 0,
+        behavior: "smooth"
+      });
   });
